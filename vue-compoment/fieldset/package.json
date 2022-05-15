@@ -1,0 +1,11 @@
+{
+  "name": "fieldset-lzr",
+  "version": "1.0.3",
+  "description": "",
+  "main": "fieldset.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

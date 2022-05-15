@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="/xuni/bundle.js"></script>
+    <script>
+      var templateStr = '我买了一个{{thing}},好{{mood}}啊'
+      var data = {}
+      SSG_TemplateEngine.render(templateStr, data)
+    </script>
+  </body>
+</html>
