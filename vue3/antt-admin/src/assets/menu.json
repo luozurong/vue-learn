@@ -1,0 +1,825 @@
+{
+  "clearInfo": {
+      "msg": "缓存清理成功",
+      "code": 1
+  },
+  "homeInfo": {
+      "title": "首页",
+      "icon": "fa fa-home",
+      "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common/chart_city"
+  },
+  "logoInfo": {
+      "title": "蚂蚁闪电送",
+      "image": "http://qn.kemean.cn/19021501/202102/08/1612775801565nopivcby.png",
+      "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common/19021501/home"
+  },
+  "menuInfo": {
+      "用户管理": {
+          "objId": 1427,
+          "title": "用户管理",
+          "icon": "fa fa-users",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 503,
+                  "title": "会员列表",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/consumer/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 596,
+                  "title": "跑腿列表",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/delivery/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1768,
+                  "title": "渠道商家管理",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/AccountShop/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 598,
+                  "title": "跑腿实时定位",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/position_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1795,
+                  "title": "骑手地图",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/deliveryMap_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1783,
+                  "title": "配送监控",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/order_watch",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 597,
+                  "title": "跑腿入驻",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/settled_delivery/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1777,
+                  "title": "骑手考勤",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/delivery/attend/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1794,
+                  "title": "骑手拉黑管理",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/block/list_page",
+                  "flag": null,
+                  "pid": 1427,
+                  "target": "_self"
+              }
+          ]
+      },
+      "调度中心": {
+          "objId": 1765,
+          "title": "调度中心",
+          "icon": "fa fa-table",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 1766,
+                  "title": "调度规则设置",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/controlCenterRuler/page",
+                  "flag": null,
+                  "pid": 1765,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1770,
+                  "title": "调度列表",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/position_page_v2",
+                  "flag": null,
+                  "pid": 1765,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1792,
+                  "title": "全网规则",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/controlCenterRuler/online_rule_page",
+                  "flag": null,
+                  "pid": 1765,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1806,
+                  "title": "骑手调度地图",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/controlDeliveryMap/page",
+                  "flag": null,
+                  "pid": 1765,
+                  "target": "_self"
+              }
+          ]
+      },
+      "订单管理": {
+          "objId": 1451,
+          "title": "订单管理",
+          "icon": "fa fa-table",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 1789,
+                  "title": "运单列表",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/orderMainPage",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1027,
+                  "title": "取送件订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_take_send/list_page",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1029,
+                  "title": "帮买订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_buy/list_page",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1032,
+                  "title": "待帮忙订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_help/list_page",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1793,
+                  "title": "帮排订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_help/row_page",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 622,
+                  "title": "已支付订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/list_page_pay",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 689,
+                  "title": "售后订单",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/list_page_after_sale",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1772,
+                  "title": "异常订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/list_page_exception",
+                  "flag": null,
+                  "pid": 1451,
+                  "target": "_self"
+              }
+          ]
+      },
+      "营销管理": {
+          "objId": 1463,
+          "title": "营销管理",
+          "icon": "fa fa-flag-o",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 537,
+                  "title": "平台优惠券",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/shop_discount_voucher/list_page",
+                  "flag": null,
+                  "pid": 1463,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1020,
+                  "title": "首页弹框活动",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/bullet_box/list_page",
+                  "flag": null,
+                  "pid": 1463,
+                  "target": "_self"
+              },
+              {
+                  "objId": 592,
+                  "title": "消息推送",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_message/add_message_page",
+                  "flag": null,
+                  "pid": 1463,
+                  "target": "_self"
+              },
+              {
+                  "objId": 543,
+                  "title": "资讯管理",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/",
+                  "flag": null,
+                  "pid": 1463,
+                  "target": "_self",
+                  "child": [
+                      {
+                          "objId": 526,
+                          "title": "资讯分类",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/article_classify/list_page",
+                          "flag": null,
+                          "pid": 543,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 525,
+                          "title": "资讯列表",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/article/list_page",
+                          "flag": null,
+                          "pid": 543,
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "objId": 1804,
+                  "title": "骑手开工消息",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/bullet_box/list_page",
+                  "flag": null,
+                  "pid": 1463,
+                  "target": "_self"
+              }
+          ]
+      },
+      "财务管理": {
+          "objId": 1475,
+          "title": "财务管理",
+          "icon": "fa fa-money",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 610,
+                  "title": "跑腿提现限制",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/cash_withdrawal_delivery",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 572,
+                  "title": "订单收入",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/finance_order/list_page",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 679,
+                  "title": "跑腿佣金与奖罚",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/delivery/list_page_finance",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 676,
+                  "title": "提现审核",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/finance_clear/user_withdrawal",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 625,
+                  "title": "财务落地流水",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/finance_clear/list_page",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1356,
+                  "title": "用户提现信息",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/account/user_deal_way/list_page",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              },
+              {
+                  "objId": 619,
+                  "title": "待退款订单",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/order_main/wait_refund_page",
+                  "flag": null,
+                  "pid": 1475,
+                  "target": "_self"
+              }
+          ]
+      },
+      "信用履约": {
+          "objId": 1780,
+          "title": "信用履约",
+          "icon": "fa fa-flag-o",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 1781,
+                  "title": "骑手信用统计",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/delivery/credit/list_page",
+                  "flag": null,
+                  "pid": 1780,
+                  "target": "_self"
+              }
+          ]
+      },
+      "系统管理": {
+          "objId": 1487,
+          "title": "系统管理",
+          "icon": "fa fa-cog",
+          "href": "https://antt-test.91hiwork.com/cityAdmin/",
+          "flag": null,
+          "pid": -1,
+          "target": "_self",
+          "child": [
+              {
+                  "objId": 505,
+                  "title": "轮播图",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/lunbo/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1042,
+                  "title": "跑腿服务费",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self",
+                  "child": [
+                      {
+                          "objId": 624,
+                          "title": "特殊天气附加费",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_cost_delivery_add/infoPageRain?type=1002",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 623,
+                          "title": "时间段附加费",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_cost_delivery_add/list_page_night",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1028,
+                          "title": "取送件服务费",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_cost_delivery/list_page?type=1201",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1030,
+                          "title": "帮买服务",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_cost_delivery/list_page?type=1101",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1033,
+                          "title": "帮忙预估服务费",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_cost_delivery/list_page?type=1401",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1036,
+                          "title": "就近购买服务费",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/config_near_buy_cost",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 627,
+                          "title": "跑腿保险",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/config_delivery_deposit",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 616,
+                          "title": "跑腿单未接单时长",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/missed_order_time",
+                          "flag": null,
+                          "pid": 1042,
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "objId": 629,
+                  "title": "跑腿系统消息",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/system_message_delivery",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 632,
+                  "title": "用户系统消息",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/system_message_user",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 696,
+                  "title": "用户意见反馈",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/feedback/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1763,
+                  "title": "项目配置",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config_v2/project_info?projectToken=19021501",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1764,
+                  "title": "系统配置",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config_v2/common_info",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1769,
+                  "title": "自动完成订单",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/deliverOrder/orderSettingInfo?projectToken=19021501",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1776,
+                  "title": "投诉管理类型",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/admin/accountComplaintType/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1779,
+                  "title": "常见问题说明",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/problem/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1791,
+                  "title": "评价管理类型",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/accountEvaluateType/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 613,
+                  "title": "取消订单时间限制",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/order_cancel_time_limite",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1773,
+                  "title": "保证金设置",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config_v2/margin_info",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 1775,
+                  "title": "站点管理",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/accountSite/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 594,
+                  "title": "关于我们",
+                  "icon": "fa fa-th-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/config_aboutUs_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              },
+              {
+                  "objId": 584,
+                  "title": "协议、说明",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self",
+                  "child": [
+                      {
+                          "objId": 1038,
+                          "title": "帮我买价格说明",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1102",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1039,
+                          "title": "取送价格说明",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1103",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1035,
+                          "title": "帮忙价格说明 ",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1104",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 532,
+                          "title": "用户注册协议",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1202",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1803,
+                          "title": "人脸识别服务协议",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1233",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1031,
+                          "title": "帮买预估费说明",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/buy_info_page?type=1101",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1034,
+                          "title": "帮我买服务协议",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1201",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 626,
+                          "title": "跑腿入驻须知",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_config/config_delivery_settled_page",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 700,
+                          "title": "跑腿入驻协议",
+                          "icon": "fa fa-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1205",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1801,
+                          "title": "帮我办服务协议",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1204",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1802,
+                          "title": "帮取送服务协议",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/common_rich_text/info_page?type=1203",
+                          "flag": null,
+                          "pid": 584,
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "objId": 500,
+                  "title": "管理员、代理",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self",
+                  "child": [
+                      {
+                          "objId": 1790,
+                          "title": "角色管理",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/user_admin/role_page",
+                          "flag": null,
+                          "pid": 500,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 501,
+                          "title": "管理员、区县代理",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/user_admin/proxy",
+                          "flag": null,
+                          "pid": 500,
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "objId": 1784,
+                  "title": "数据中心",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin/",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self",
+                  "child": [
+                      {
+                          "objId": 1785,
+                          "title": "骑手数据统计",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/data/delivery_page",
+                          "flag": null,
+                          "pid": 1784,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1786,
+                          "title": "用户数据统计",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/data/user_page",
+                          "flag": null,
+                          "pid": 1784,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1787,
+                          "title": "订单数据统计",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/data/order_page",
+                          "flag": null,
+                          "pid": 1784,
+                          "target": "_self"
+                      },
+                      {
+                          "objId": 1788,
+                          "title": "财务数据统计",
+                          "icon": "fa fa-th-list",
+                          "href": "https://antt-test.91hiwork.com/cityAdmin//admin/data/finance_page",
+                          "flag": null,
+                          "pid": 1784,
+                          "target": "_self"
+                      }
+                  ]
+              },
+              {
+                  "objId": 1805,
+                  "title": "版本管理",
+                  "icon": "fa fa-list",
+                  "href": "https://antt-test.91hiwork.com/cityAdmin//admin/app_version/list_page",
+                  "flag": null,
+                  "pid": 1487,
+                  "target": "_self"
+              }
+          ]
+      }
+  }
+}

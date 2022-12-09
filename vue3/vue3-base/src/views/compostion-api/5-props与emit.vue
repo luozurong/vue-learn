@@ -2,12 +2,14 @@
   <div>
     getCurrentInstall
     <emits :count="count" @numChange="numChange" ></emits>
+    <emits-new :count="count" @numChange="numChangeNew"></emits-new>
     <button  @click="modifyCount">改变count值</button>
   </div>
 </template>
 <script setup>
   import {getCurrentInstance, ref} from 'vue'
   import emits from './component/emits.vue'
+  import emitsNew from './component/emitsNew.vue'
   
   let count = ref(0)
 
@@ -25,5 +27,9 @@
   }
   const numChange = (data) => {
     console.log(data.count)
+  }
+
+  const numChangeNew = (data) => {
+    console.log('emit改变了',data)
   }
 </script>
